@@ -1,3 +1,27 @@
 # URL-encoding
 
 “Percent-encoding table for special characters in URLs”
+```
+HTML Entities Cheat Sheet
+
+Character    HTML Entity      Numeric Code
+------------------------------------------
+&            &amp;             &#38;
+<            &lt;              &#60;
+>            &gt;              &#62;
+"            &quot;             &#34;
+'            &#39; (preferred)  &apos; (HTML5)
+(space)      &nbsp;           &#160;
+©            &copy;           &#169;
+®            &reg;            &#174;
+™            &trade;          &#8482;
+€            &euro;           &#8364;
+£            &pound;          &#163;
+₹            (no named)      &#8377;
+— (em dash)  &mdash;          &#8212;
+– (en dash)  &ndash;          &#8211;
+… (ellipsis) &hellip;         &#8230;
+
+Notes:
+- &#39; is preferred for single quote (apostrophe).
+- Some characters (like ₹) don’t have a named entity in HTML5, only numeric codes.
